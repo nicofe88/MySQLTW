@@ -134,10 +134,6 @@ STATIC_URL = '/static/'
 
 STATIC_ROOT = BASE_DIR / 'static_root'
 
-STATICFILES_DIRS = [
-    BASE_DIR / 'static'
-]
-
 LOGIN_REDIRECT_URL = 'home'
 LOGOUT_REDIRECT_URL = 'login'
 
